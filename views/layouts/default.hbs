@@ -8,13 +8,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
 <body>
-  <header>
-  
+  <header>  
       <h1>Welcome to the Cloud Native Dev Squad's application</h1>
+ </header>
+ <main>
+  <section>
     {{{body}}}
+  </section>
 
-</header>
-<main>
+<section>
   <h2>Add an event</h2>
     <form action="/event" method="post">
        title: <input name="title" type="text" /> <br />
@@ -23,6 +25,7 @@
        <br />
         <input type="submit" name="submit" value="submit" />
     </form>
+  </section>
   </main>
 </body>
 </html>
